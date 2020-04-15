@@ -112,6 +112,7 @@ def get_html(u,file_name):
 		return html
 
 	else:
+    		
 		# requires chromedriver
 		options = webdriver.ChromeOptions()
 		#options.add_argument('--start-maximized')
