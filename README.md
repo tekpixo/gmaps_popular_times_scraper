@@ -17,16 +17,9 @@ Install required packages ([selenium](https://pypi.org/project/selenium/) and [b
 
     pip3 install -r requirements.txt
 
-Modify these lines in the code `config.py` to point to your path of Chrome and chromedriver.
-
-    CHROME_BINARY_LOCATION = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
-    CHROMEDRIVER_BINARY_LOCATION = '/usr/local/bin/chromedriver'
-
-Chromedriver downloads are [here](https://sites.google.com/a/chromium.org/chromedriver/downloads). Make sure you use the version that matches your Chrome version.
-
 ## to run the code
 
-Run the scraper by putting a URL as the system argument:
+Run the scraper by putting a URL to a CSV containing maps URL and some description as the system argument:
 
     python3 scrape_gm.py "$URL_TO_CSV"
 
